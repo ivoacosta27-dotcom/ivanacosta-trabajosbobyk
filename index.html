@@ -3,92 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lenguajes de programación</title>
+    <title>Arduino y Componentes</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
 
-    <header>
-    <div class="logo">
-        <img src="img/logo.jpg" width="100" alt="Logo">
-
-    </div>
-
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="pagina1.html">Lenguaje C</a>
-        <a href="pagina2.html">Java</a>
-        <a href="pagina3.html">Python</a>
-        <a href="pagina4.html">JavaScript</a>
-        <a href="pagina5.html">C++</a>
-        <a href="pagina6.html">Lenguajes modernos</a>
-    </nav>
-</header>
-
-    <div id="banner">
-    <h1>Lenguajes de programación</h1>
-    </div>
-    
-    <section class="contenedor-cajas">
-    <a href="pagina1.html">
-        <div class="caja">
-        <h3>Lenguaje C</h3>
-        <img src="img/images.png" width="250" height="150" alt="Lenguaje C">
-        <p>1972 - actualidad</p>
-        
-    </div>
-    </a>
-
-    <a href="pagina2.html">
-    <div class="caja">
-        <h3>Java</h3>
-        <img src="img/JAVA.jpg" width="250" height="150" alt="Java">
-        <p>1995 - actualidad</p>
-    </div>
-    </a>
-
-    <a href="pagina3.html">
-    <div class="caja">
-        <h3>Python</h3>
-        <img src="img/python.webp" width="250" height="150" alt="Python">
-        <p>1991 - actualidad</p>
-    </div>
-    </a>
-
-    <a href="pagina4.html">
-    <div class="caja">
-        <h3>JavaScript</h3>
-        <img src="img/Javascript.png" width="250" height="150" alt="JavaScript">
-        <p>1995 - actualidad</p>
-    </div>
-    </a>
+    <header class="navbar">
+        <div class="logo">LOGO</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pagina1.html">Pág 1</a></li>
+            <li><a href="pagina2.html">Pág 2</a></li>
+            <li><a href="pagina3.html">Pág 3</a></li>
+            <li><a href="pagina4.html">Pág 4</a></li>
+        </ul>
+    </header>
 
 
-    <a href="pagina5.html">
-    <div class="caja">
-        <h3>C++</h3>
-        <img src="img/C++.webp" width="250" height="150" alt="C++">
-        <p>1985 - actualidad</p>
-    </div>
-    </a>
-
-    <a href="pagina6.html">
-    <div class="caja">
-        <h3>Lenguajes modernos</h3>
-        <img src="img/lenguajesmodernos.jpg" width="250" height="150" alt="Lenguajes modernos">
-        <p>Actualidad</p>
-    </div>
-    </a>
-
+    <section class="hero-section flex-container">
+        <div class="hero-text">
+            <h1>ARDUINO • COMPONENTES • ELECTRÓNICA</h1>
+            <p>Aprendé a crear circuitos interactivos con microcontroladores</p>
+        </div>
+        <div class="hero-img">
+            Imagen destacada
+        </div>
     </section>
 
-    <footer>
-    <p>Página realizada por Ivan Acosta con fines educativos - 2026</p>
-</footer>
 
+    <section class="main-section">
+        <h2 class="section-title">Placa Arduino uno- Protoboard - LEDs y resistencias - Sensores</h2>
+        
+        <div class="card-container flex-wrap-between">
+
+            <div class="card">
+                <div class="card-img"><img src="img.arduinouno.jpg" alt="" class="arduinouno jpg"></div>
+                <div class="card-body">
+                    <h3>CAJA 1</h3>
+                    <p>Placa Arduino UNO: El microcontrolador principal para procesar el código del circuito.</p>
+                    <a href="pagina1.html" style="text-decoration: none; margin-top: auto; width: 100%;">
+                        <button style="width: 100%;">Botón</button>
+                    </a>
+                </div>
+            </div>
+            
+
+            <div class="card">
+                <div class="card-img">Imagen</div>
+                <div class="card-body">
+                    <h3>CAJA 2</h3>
+                    <p>Protoboard: Placa de pruebas para conectar componentes electrónicos sin soldar.</p>
+                    <a href="pagina2.html" style="text-decoration: none; margin-top: auto; width: 100%;">
+                        <button style="width: 100%;">Botón</button>
+                    </a>
+                </div>
+            </div>
+            
+
+            <div class="card">
+                <div class="card-img">Imagen</div>
+                <div class="card-body">
+                    <h3>CAJA 3</h3>
+                    <p>LEDs y Resistencias: Componentes básicos de salida de luz y limitadores de corriente.</p>
+                    <a href="pagina3.html" style="text-decoration: none; margin-top: auto; width: 100%;">
+                        <button style="width: 100%;">Botón</button>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-img">Imagen</div>
+                <div class="card-body">
+                    <h3>CAJA 4</h3>
+                    <p>Sensores: Módulos para detectar luz, temperatura, distancia y otras variables.</p>
+                    <a href="pagina4.html" style="text-decoration: none; margin-top: auto; width: 100%;">
+                        <button style="width: 100%;">Botón</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="prop-tag-center">DATO: El microcontrolador ATmega328P (el cerebro del popular Arduino Uno) tiene una función oculta llamada sensor de temperatura interno</div>
+    </section>
+
+
+    <footer class="footer-container flex-container">
+        <div class="flex-item-col">
+            <h3>Materia</h3>
+            <p>Base de datos</p>
+        </div>
+        <div class="flex-item-col">
+            <h3>Profesor</h3>
+            <p>Mauro Bobyk</p>
+        </div>
+        <div class="flex-item-col">
+            <h3>Para más información</h3>
+            <p>ivo.acosta27@gmail.com</p>
+        </div>
+        <div class="flex-item-col">
+            <h3>Trabajo</h3>
+            <p>Arduino y componentes electrónicos</p>
+        </div>
+    </footer>
 
 </body>
-
-
 </html>
